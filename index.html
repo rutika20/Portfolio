@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutika portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cf924debb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Ruti.png"  class="logo">
+                
+                <ul id="sidemenue">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#srvices">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>
+                JAVA Developer
+            </p>
+            <h1>
+                Hi, I am <span>Rutika</span><br>Bhusari from nagpur
+            </h1>
+
+
+            </div>
+        </div>
+    </div>
+    <!--------------about------------- --->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user6.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <br>
+                    <p>
+                        I am a fresher Java developer persuing my computer science degree and will be graduatin in 2023. 
+                        I am eager to put my knowledge into practice and start my career as a Java programmer.
+                        I had taken several courses in Java programming and has completed some projects during my studies. 
+                        Now I am looking for my first job as a Java developer, where I can work on real-world projects and learn from experienced professionals. 
+                        Excited about the opportunities to expand my knowledge and build a successful career in the tech industry.
+                    </p>
+                    <br>
+                    <br>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <br>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>java language</li>
+                            <li><span>JavaScript</span><br>Script language</li>
+                            <li><span>HTML</span><br>HTML language</li>
+                            <li><span>CSS</span><br>CSS </li>
+                            <li><span>React</span><br>React framework</li>
+                        </ul>
+
+                        </ul>
+                        </ul>
+                        </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>JAVA</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>React</span></li>
+                        </ul>
+
+                        </ul>
+                        </ul>
+                        </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>Bachleors in Computer Science Engineering</li>
+                            <li><span>2019</span><br>Passed HSC  </li>
+                            <li><span>2017</span><br>Passed SSC</li>
+                           
+                        </ul>
+
+                        </ul>
+                        </ul>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------services----->
+    <div id="srvices">
+        <div class="container">
+            <h1 class="sub-tittle">My services</h1>
+            <div class="service-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <br>
+                    <p>
+                        Welcome to my web design services!
+                        I am dedicated to creating custom, 
+                        user-friendly websites that help businesses achieve their online goals.
+                        Contact us today to start your web design project.
+                    </p>
+                    <a href="#">learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Logo Designing</h2>
+                    <br>
+                    <p>
+                        Welcome to MY logo design services! I understand the importance of a strong and memorable logo for a successful brand. 
+                        I creates unique and professional logos tailored to our clients' needs. 
+                        Contact us today to get started.
+                    </p>
+                    <a href="#">learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Ppt Designing</h2>
+                    <br>
+                    <p>
+                        Welcome to I presentation design services!
+                        We understand the power of a well-designed presentation to effectively communicate ideas and messages.
+                        I creates custom presentations that are not only visually appealing,
+                        but also engaging and easy to follow. 
+                        Contact us today to get started on your next presentation.
+                    </p>
+                    
+                    <a href="#">learn more</a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/librarymanagement (1).jpg">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>
+                            A Library Management System (LMS) using Java is a software application designed 
+                            to handle and manage the daily operations of a library.
+                            It automates tasks such as cataloging, circulation, and tracking of books, journals, 
+                            and other library materials.
+                            I used swing technology to built these desktop application.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ptf (1).jpg">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>
+                            A personal portfolio website is an online platform that showcases 
+                            an individual's skills, experience, and work to potential employers, 
+                            clients, or other interested parties.
+                            I created this website using HTML, CSS, JavaScript. 
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/eventimg.jpg">
+                    <div class="layer">
+                        <h3>Event Management website</h3>
+                        <p>
+                         An Event Management System (EMS) using HTML, CSS, and JavaScript is 
+                        a web-based application designed to help users organize and manage events. 
+                        Technology used: HTML, Css, JavaScript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!----------------contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                
+                <p><i class="fa-sharp fa-regular fa-paper-plane"></i>bhusarirutika@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7218144532</p>
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="images/RUTIKA S BHUSARI final resume.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Rutika</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenue");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzs8_dIh5ZiEK5kfpmTmVflfbBGFzl7v3Ac4FEnWV48hIrBZqj5SdaWnJl20eQVCHdJeQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
